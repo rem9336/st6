@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>word-break</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        margin: 20px auto;
+        width: 400px;
+        border: 1px solid #000;
+      }
+      .box1{
+        word-break: keep-all;
+        text-align: center;
+      }
+      .box2{
+        word-break: normal;
+        text-align: center;
+      }
+      .box3{
+        word-break: break-all;
+        /* 영어도 단어단위 word wrap 아니라 문자 단위로 wrap */
+      }
+      
+    </style>
+  </head>
+  <body>
+   <div class="box box1">탕라마머어 효지셉과 오메인은 토잠 로찰아는 그으핞니삽은 명쩌는 냥슴지요. 뚝엘죠나 카들양으다 디무아크는 노조의 옅역머가난뱌있치먼다 토믹을. 냐자우랑 혼서뎐어그애는 당감아에 박사욯조며 이퍼 위꺄다 태각으에, 조장볼제던 밀여샹하홓구와. 아게다 딩다언실을 중걉 딘뚜티하우야 포므어 앨바. 머탘는 열진세를    
+   </div>
+   <div class="box box2">탕라마머어 효지셉과 오메인은 토잠 로찰아는 그으핞니삽은 명쩌는 냥슴지요. 뚝엘죠나 카들양으다 디무아크는 노조의 옅역머가난뱌있치먼다 토믹을. 냐자우랑 혼서뎐어그애는 당감아에 박사욯조며 이퍼 위꺄다 태각으에, 조장볼제던 밀여샹하홓구와. 아게다 딩다언실을 중걉 딘뚜티하우야 포므어 앨바. 머탘는 열진세를 
+   </div>
+   <div class="box box3">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis temporibus nam doloribus illo officia totam sequi ab quae, libero harum!
+  </div>
+  <div class="box box4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis temporibus nam doloribus illo officia totam sequi ab quae, libero harum!
+  </div>
+</body>
+</html>

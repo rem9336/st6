@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>목록관련 css</title>
+  <style>
+    ul, ol{
+      border: 1px solid #000;
+    }
+    li{
+      border: 1px solid #f00;
+      margin-bottom: 10px;
+    }
+    ul{
+      list-style: upper-alpha;
+    }
+    ol{
+      list-style: circle;
+    }
+    ul.list-style-example{
+      list-style: none;
+      padding: 0;
+      border: 0;
+    }
+    ul.list-style-example li{
+      padding-left: 2.5rem;
+      background-image: url(background/images/img1.png);
+      background-size: auto 30px;
+      background-repeat: no-repeat;
+      background-position:  10px center;
+      /* background-color: #ccc; */
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+ <!--  -->
+  <ul>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+ </ul>
+ <ol>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+ </ol> 
+ <ul class="list-style-example">
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+ </ul>
+</body>
+</html>

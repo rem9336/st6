@@ -4,12 +4,19 @@
 /* reset */
 *{margin:0; padding: 0; 
   box-sizing: border-box;}
+ul, ol, li{list-style: none;}
 
 /* 테스트 화면용 */
 /* body{background-color: #ff9;} */
 .wrap{
   margin:50px
 }
+
+/* 갤러리 레이아웃 float */
+.card__list{}
+.crad__list ul.card__wrap{}
+.crad__list li.card__item{}
+.crad__list div.card{}
 
 /* card desgin */
 .card{

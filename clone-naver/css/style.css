@@ -9,10 +9,11 @@
   padding-top: 70px;
   padding-bottom: 160px;
 }
+.navercorp.main .main-content{}
 .navercorp.main .main-content__inner {
   display: flex;
   position: relative;
-  max-width: 1900px;
+  max-width: 1600px;
   margin:0 auto; /*정렬은 크기가 제한이 있어야 적용이 됩니다.*/
 }
 .navercorp.main .cont__area{
@@ -662,6 +663,7 @@ color:var(--default);
 .navercorp.main .cont-shortcut{
   padding:60px 40px 0;
 }
+/*@media (max-width:1919px)*/
 
 }
 /*@media (max-width:1919px)*/

@@ -1,3 +1,4 @@
+
 /*여기서 부터 단 배너 css */
 /* 기존 스킨 배너 옆 양쪽 여백 없애기 */
 #container #contents > .section.mybanner-wrapper {
@@ -305,6 +306,9 @@
 
 
 /*헤더검색창 시작*/
+#header .inner .top_nav_box .top_mypage li:nth-child(2) a{
+  padding-right: 0;
+}
 #header .my_top_search{
  width: 190px;
  height: 40px;
@@ -343,4 +347,43 @@
   position: absolute; right: 0; top:50%;
   transform: translateY(-50%);
 }
+
+
+@media (min-width:1024px){
+  #header .inner .top_nav_box .top_mypage .top_search{
+    display:none;
+  }
+}
 /*//헤더검색창 끝*/
+
+/* 상품설명 칼라칩 크기 변경 시작 */
+.ec-base-product .spec .chips{
+  width:15px; height: 6px;
+  border-radius: 2px;
+}
+.ec-base-product .prdList .spec > li{
+  margin:0 0 3px;
+}
+/* 상품설명 칼라칩 크기 변경 끝*/
+
+/* 상세화면의 미리보기 옵션 시작*/
+.xans-product-detail .xans-product-option .ec-product-button.ec-product-preview li a {
+  width: 40px;
+  height: 40px;
+  min-width: auto;
+}
+/* 상세화면의 미리보기 끝 */
+
+/* 상세화면 텍스트 버튼  시작*/
+.xans-product-detail .xans-product-option .ec-product-button li a {
+  height: 40px;
+  line-height: 40px;
+  min-width: 40px;
+}
+/* 상세화면 텍스트 버튼  끝*/
+
+/* 상세화면 미리보기, 텍스트 번튼 선택 테두리 시작 */
+.xans-product-detail .xans-product-option .ec-product-button .ec-product-selected{
+  border:2px solid  #6f6f6f;
+}
+/* 상세화면 미리보기, 텍스트 번튼 선택 테두리 끝*/

@@ -1,0 +1,6 @@
+@media (min-width:1024px){
+  #container #contents > .section {
+    max-width: none;
+    width: 100%;
+  }
+}
